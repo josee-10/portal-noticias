@@ -26,3 +26,8 @@ header {
     font-size: 0.85rem;
     padding: 0.5em 0.8em;
 }
+#noticia-ia {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
