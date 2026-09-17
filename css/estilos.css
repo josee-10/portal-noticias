@@ -1,0 +1,28 @@
+/* Estilos Base para el Portal de Noticias */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    border-bottom: 4px solid #0d6efd;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.noticia-img {
+    height: 100%;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.badge {
+    font-size: 0.85rem;
+    padding: 0.5em 0.8em;
+}
